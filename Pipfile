@@ -1,0 +1,22 @@
+[[source]]
+name = "pypi"
+url = "https://pypi.org/simple"
+verify_ssl = true
+
+[dev-packages]
+pytest = "*"
+requests-mock = "*"
+behave = "*"
+flake8 = "*"
+
+[packages]
+flask = "*"
+behave = "*"
+requests = "*"
+alembic = "*"
+sqlalchemy = "*"
+psycopg2 = "*"
+schema = "*"
+
+[requires]
+python_version = "3.7"
